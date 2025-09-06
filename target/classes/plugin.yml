@@ -1,0 +1,18 @@
+# ============================================================
+# myPay plugin configuration
+# ============================================================
+
+name: 'PaySign'
+version: '1.0.0'
+main: net.nightzy.mypay.MyPayPlugin
+api-version: '1.15'
+authors:
+  - Drago <drago.klaudiusz@gmail.com>
+website: 'https://nightzy.net'
+description: "myPay is a secure, lightweight economy system for Minecraft servers that lets players manage balances, send payments, and connect seamlessly with other plugins."
+depend:
+  - Vault
+
+# ============================================================
+# Permissions
+# ============================================================
