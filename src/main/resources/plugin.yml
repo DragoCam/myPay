@@ -4,15 +4,18 @@
 
 name: '${project.name}'
 version: '${project.version}'
-main: net.nightzy.mypay.MyPayPlugin
+main: net.nightzy.mypay.MyPay
 api-version: '${apiVersion}'
 authors:
   - Drago <drago.klaudiusz@gmail.com>
 website: '${project.url}'
 description: "myPay is a secure, lightweight economy system for Minecraft servers that lets players manage balances, send payments, and connect seamlessly with other plugins."
-depend:
-  - Vault
+depend: [Vault]
 
 # ============================================================
 # Permissions
 # ============================================================
+commands:
+  mypay:
+    description: Show your balance
+    usage: /mypay

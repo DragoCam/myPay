@@ -1,0 +1,4 @@
+net/nightzy/mypay/MyPay.class
+net/nightzy/mypay/commands/MyPayCommand.class
+net/nightzy/mypay/utils/BalanceManager.class
+net/nightzy/mypay/utils/MyPayEconomy.class
